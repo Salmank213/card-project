@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 // src/pages/index.tsx
 import CardSection from '../components/CardSection';
 
