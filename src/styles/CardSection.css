@@ -1,0 +1,35 @@
+/* src/styles/CardSection.css */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #f3f4f6; /* Light gray background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .card h2 {
+    margin: 10px 0;
+    font-size: 24px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .card-image {
+    border-radius: 8px; /* Optional: rounded corners for the image */
+    width: 100%; /* Makes the image fit within the card */
+    height: auto; /* Maintain the image's aspect ratio */
+  }
+  
